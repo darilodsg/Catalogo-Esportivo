@@ -2,12 +2,12 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: Arial, sans-serif;
+    
   }
   
 .corpo {
-    display: flex;
-    justify-content: space-between;
-    
+    /* display: flex;
+    justify-content: space-between; */
     
 }
 
@@ -66,14 +66,15 @@ body {
 }
 
 /*=========================================================================================================*/
-
+/*
 .direita {
+    
     min-width: 200px;
     max-width: 500px;
     width: 60%;
     height: 100vh;
-    border-radius: 30% 0 0 30%;
-    background-color: #5cbff4; /* Cor de fundo para o painel direito */
+    border-radius: 10% 0 0 10%;
+    background-color: #000000;
 }
 .direita>.menu{
     padding-top: 20px;
@@ -81,7 +82,8 @@ body {
     text-align: center;
 }
 .direita>.menu>a{
-    color: rgb(0, 0, 0);
+    
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: bold;
     margin-right: 15px;
@@ -90,12 +92,13 @@ body {
 #logo{
     height: 90%;
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
+    justify-content: center;
+    align-items: center;
 }
 
 #logo>img{
     width: 80%;
  
 }
-  
+
+*/
