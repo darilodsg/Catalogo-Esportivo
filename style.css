@@ -1,7 +1,16 @@
 body {
+    
     margin: 0px;
     padding: 0px;
     font-family: Arial, sans-serif;
+    background-color: black;
+    /* background-image: url(imagens/background-cr7.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100%; */
+    
+    
     
   }
   
@@ -17,12 +26,21 @@ body {
 }
 header{
     padding: 20px;
-    background: rgba(55, 136, 189, 0.871);
+    background: rgb(55, 135, 189);
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    /* position: fixed; */
     
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+h1>span{
+    color: rgb(61, 61, 244);
 }
 #logoh{
     
@@ -70,6 +88,7 @@ li>a:hover{
 }
 
 .esquerda {
+    
     margin: auto;
     display: flex;
     min-width: 280px;
@@ -78,10 +97,12 @@ li>a:hover{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: #ffffff; /* Cor de fundo para o painel esquerdo */
+    
+    
 }
 
 .camisas{
+    margin-top: 30px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -93,18 +114,20 @@ li>a:hover{
 }
 
 .time{
+    margin: auto;
+    margin-top: 0px;
     margin-left: 20px;
     
 }
 
 .time>h2{
+    color: rgb(255, 255, 255);
     text-align: center;
     font-size: 14px;
     font-weight: bold;
 }
 
 .time>a>img{
-    
     margin: 10px;
     width: 80px;
     /* cursor: pointer; */
@@ -112,12 +135,12 @@ li>a:hover{
 
 .time:hover{
     transform: scale(0.90);
-    color: rgb(253, 0, 0);
+    
+    
 }
 
-.time:hover{
-    transform: scale(0.89);
-}
+
+
 /*=========================================================================================================*/
 /*
 .direita {
