@@ -1,0 +1,101 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+  }
+  
+.corpo {
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.painel {
+    width: 80%; /* Ajuste conforme necessário */
+    
+}
+
+#logoh{
+    
+    width: 20%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+
+}
+
+.esquerda {
+    /* display: flex; */
+    min-width: 280px;
+    flex-wrap: wrap;
+    background-color: #ffffff; /* Cor de fundo para o painel esquerdo */
+}
+
+.camisas{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    
+    
+}
+.time{
+    
+    margin-left: 0px;
+}
+.time>h2{
+    text-align: center;
+    font-size: 12px;
+}
+
+.time>a>img{
+    
+    background-color: black;
+    margin: 10px;
+    width: 100px;
+    /* cursor: pointer; */
+    
+
+}
+
+/*=========================================================================================================*/
+
+.direita {
+    min-width: 200px;
+    max-width: 500px;
+    width: 60%;
+    height: 100vh;
+    border-radius: 30% 0 0 30%;
+    background-color: #5cbff4; /* Cor de fundo para o painel direito */
+}
+.direita>.menu{
+    padding-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+.direita>.menu>a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+#logo{
+    height: 90%;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+#logo>img{
+    width: 80%;
+ 
+}
+  
