@@ -99,7 +99,8 @@ article{
 .time-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; /* Distribui os times igualmente em cada linha */
+    justify-content: center;
+    align-items: flex-start; /* Distribui os times igualmente em cada linha */
 }
 
 .time {
@@ -142,8 +143,9 @@ article{
     }
 
     header {
-        padding: 10px 20px 10px 20px;
+        /* padding: 10px; */
         position: fixed;
+        margin-right: 20px;
     }
 
     h1 {
