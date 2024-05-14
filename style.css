@@ -13,12 +13,6 @@ body {
 }
 
 header {
-    /* padding: 20px;
-    background: rgb(55, 135, 189);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed; */
     width: 100%;
     padding: 20px;
     background: rgb(55, 135, 189);
@@ -148,7 +142,7 @@ article{
     }
 
     header {
-        padding: 10px;
+        padding: 10px 20px 10px 20px;
         position: fixed;
     }
 
