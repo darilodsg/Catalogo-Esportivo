@@ -139,10 +139,11 @@ article{
 
     header {
         padding: 10px;
+        position: fixed;
     }
 
     h1 {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     article > h2 {
