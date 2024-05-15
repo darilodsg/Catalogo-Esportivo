@@ -30,8 +30,8 @@ header {
 
 #logoh {
     width: 100%;
-    max-width: 20%;
-    min-width: 200px;
+    width: 17%;
+    /* min-width: 200px; */
     margin-right: -10px;
 }
 
@@ -152,9 +152,11 @@ article{
     header {
         /* padding: 10px; */
         position: fixed;
+        width: 100%;
     }
 
     ul{
+        
         padding: 0px 30px;
         margin: 0px 0px;
     }
@@ -175,9 +177,9 @@ article{
     }
 
     #logoh {
-        max-width: 30%;
+        width: 40%;
     }
-
+  
     li > a {
         font-size: 25px;
     }
