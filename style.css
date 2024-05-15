@@ -12,11 +12,14 @@ body {
 
 .background{
 
-    background-attachment: fixed;
+    /* background-attachment: fixed;
     background-position: right center;
     background-repeat: no-repeat;
-    background-size: 50%;
-    opacity: 80%; /* Ajuste a opacidade conforme necessário */
+    background-size: 40%; */
+    width: 80%;
+    margin: auto;
+    opacity: 80%;
+    filter: blur(1px);
     position: fixed;
     top: 0;
     left: 0;
