@@ -10,9 +10,6 @@ body {
     background-repeat: no-repeat;
     background-size: 50%;
     background-attachment: fixed;
-    top: 0; /* Alinha o cabeçalho no topo da página */
-    z-index: 0;
-    
 }
 
 header {
