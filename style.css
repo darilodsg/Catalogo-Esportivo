@@ -20,7 +20,7 @@ body::after {
     background-size: 50%;
     opacity: 0.5; /* Ajuste a opacidade conforme necessário */
     position: fixed;
-    top: 0;
+    top: 300px;
     left: 0;
     right: 0;
     bottom: 0;
