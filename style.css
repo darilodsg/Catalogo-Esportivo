@@ -4,28 +4,30 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
     background-color: black;
-    /* background-image: url(imagens/cr7-black.jpg);
+    background-image: url(imagens/cr7-black.jpg);
     height: 98vh;
     background-position: right center;
     background-repeat: no-repeat;
-    background-size: 50%; */
+    background-size: 50%;
+    background-attachment: fixed;
+    z-index: -1;
 }
-
+/* 
 body::after {
     content: "";
     background-image: url(imagens/cr7-black.jpg);
     background-attachment: fixed;
     background-position: right center;
     background-repeat: no-repeat;
-    background-size: 50%;
-    opacity: 0.5; /* Ajuste a opacidade conforme necessário */
+    background-size: 60%;
+    opacity: 0.5;
     position: fixed;
-    top: 300px;
+    top: 200px;
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: -1; /* Coloca o pseudoelemento atrás do conteúdo */
-}
+    z-index: -1;
+} */
 
 header {
     width: 100%;
@@ -205,7 +207,7 @@ article{
     .time > h2 {
         
         width: 80px;
-        font-size: 12px;
+        font-size: 10px;
         
     }
 
