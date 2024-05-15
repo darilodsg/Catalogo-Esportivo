@@ -4,12 +4,27 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
     background-color: black;
-    background-image: url(imagens/cr7-black.jpg);
+    /* background-image: url(imagens/cr7-black.jpg);
     height: 98vh;
     background-position: right center;
     background-repeat: no-repeat;
-    background-size: 50%;
+    background-size: 50%; */
+}
+
+body::after {
+    content: "";
+    background-image: url(imagens/cr7-black.jpg);
     background-attachment: fixed;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    opacity: 0.5; /* Ajuste a opacidade conforme necessário */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1; /* Coloca o pseudoelemento atrás do conteúdo */
 }
 
 header {
@@ -181,13 +196,9 @@ article{
         font-size: 25px;
     }
 
-    .time-list {
-        
-    }
-
     .time {
         
-       width: calc(25% - 0px);  Reduz a largura dos times para caberem em 5 colunas */
+        width: calc(25% - 0px);  /*Reduz a largura dos times para caberem em 5 colunas */
         max-width: 100px; /* Largura máxima para garantir consistência */
     }
 
@@ -209,41 +220,3 @@ article{
         height: 60px;
     }
 }
-
-/*=========================================================================================================*/
-/*
-.direita {
-    
-    min-width: 200px;
-    max-width: 500px;
-    width: 60%;
-    height: 100vh;
-    border-radius: 10% 0 0 10%;
-    background-color: #000000;
-}
-.direita>.menu{
-    padding-top: 20px;
-    width: 100%;
-    text-align: center;
-}
-.direita>.menu>a{
-    
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    font-weight: bold;
-    margin-right: 15px;
-}
-
-#logo{
-    height: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#logo>img{
-    width: 80%;
- 
-}
-
-*/
