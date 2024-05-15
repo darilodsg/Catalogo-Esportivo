@@ -10,6 +10,9 @@ body {
     background-repeat: no-repeat;
     background-size: 50%;
     background-attachment: fixed;
+    top: 0; /* Alinha o cabeçalho no topo da página */
+    z-index: 0;
+    
 }
 
 header {
@@ -29,6 +32,7 @@ header {
     width: 100%;
     max-width: 20%;
     min-width: 200px;
+    margin-right: -10px;
 }
 
 ul {
@@ -36,6 +40,8 @@ ul {
     align-items: center;
     gap: 1.2rem;
     list-style: none;
+    /* padding: 0px 20px;
+    margin: 0px 10px; */
 }
 
 li > a {
@@ -46,6 +52,7 @@ li > a {
     color: #061fac;
     font-size: 30px;
     padding: 10px;
+    
     border-radius: 10px;
     align-items: center;
     justify-content: center;
@@ -105,6 +112,7 @@ article{
 
 .time {
     margin-top: 20px;
+    /* padding-left: 20px; */
 }
 
 .time > h2 {
@@ -139,13 +147,16 @@ article{
 @media screen and (max-width: 615px) {
     body {
         background-size: 100%;
-        background-attachment: fixed;
     }
 
     header {
         /* padding: 10px; */
         position: fixed;
-        margin-right: 20px;
+    }
+
+    ul{
+        padding: 0px 30px;
+        margin: 0px 0px;
     }
 
     h1 {
@@ -155,7 +166,7 @@ article{
     article > h2 {
         width: 90%;
         margin-top: 30px;
-        font-size: 20px;
+        font-size: 16px;
         
     }
 
@@ -177,7 +188,7 @@ article{
 
     .time {
         
-        width: calc(21% - 0px); /* Reduz a largura dos times para caberem em 5 colunas */
+       width: calc(25% - 0px);  Reduz a largura dos times para caberem em 5 colunas */
         max-width: 100px; /* Largura máxima para garantir consistência */
     }
 
@@ -186,6 +197,11 @@ article{
         width: 80px;
         font-size: 12px;
         
+    }
+
+    .time > a{
+        margin: 0px;
+        padding: 0px;
     }
 
     .time > a > img {
